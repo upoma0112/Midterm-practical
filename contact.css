@@ -42,3 +42,12 @@ img {
     width: 50%;
     height: auto;
 }
+
+footer p {
+    margin: 0;
+}
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
