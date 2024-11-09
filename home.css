@@ -5,3 +5,58 @@ body {
     box-sizing: border-box;
     background-color: #246363;
 }
+
+
+header, footer {
+    background-color: #333;
+    color: rgb(70, 147, 169);
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.flex-item {
+    width: 45%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    margin: 0;
+}
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
