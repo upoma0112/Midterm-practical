@@ -5,3 +5,9 @@ body {
     box-sizing: border-box;
     background-color: #568392;
 }
+header, footer {
+    background-color: #333;
+    color: rgb(174, 150, 177);
+    text-align: center;
+    padding: 1em 0;
+}
